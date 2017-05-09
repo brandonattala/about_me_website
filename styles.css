@@ -1,21 +1,13 @@
 body {
 	font: times, medium, black;
-	padding: 0px;
 }
 
 .odd {
 	background-color: gray;
 }
 
-.goofy {
-	text-align: center;
-	margin-bottom: 0px;
-	margin-top: -5.8em;
-}
-
-.goof{
-	text-align: center;
-	margin-top: -0.2em;
+.even {
+	font-size: small;
 }
 
 .header {
@@ -38,6 +30,10 @@ body {
 	margin-top: 1em;
 }
 
+.top_paragraph_header {
+	margin-bottom: -0.5em;
+}
+
 .top_paragraph {
 	float: right;
 	text-align: left;
@@ -47,33 +43,27 @@ body {
 	border-color: transparent;
 }
 
-.top_paragraph_header {
-	margin-bottom: -0.5em;
-}
-
 .table {
 	width: 97%;
-	height: 50%;
-/*	border-width: 2px;
-	border-style: solid;
-	border-color: black;
-	border-collapse: collapse;*/
 	margin: 2px auto;
 }
 
-.table th, td {
-/*	border: 1px solid black;*/
-}
-
-.cell_title {
+.activities_title {
 	text-align: center;
-	font-size: medium;
+	margin-bottom: 0px;
+	margin-top: -6.8em;
 }
 
 .favorite_things {
 	font-size: small;
 	color: blue;
 	width: 100%;
+}
+
+.inspiration_title{
+	text-align: center;
+	font-size: small;
+	margin-top: -0.2em;
 }
 
 .inspiration {
@@ -96,13 +86,13 @@ body {
 	width: 100%;
 }
 
+ .inner_table {
+	margin: 1px auto;
+}
+
 .courses_table.odd {
 	font-size: small;
 	text-align: center;
-}
-
-.classes {
-	margin: 1px auto;
 }
 
 .links {
@@ -110,10 +100,6 @@ body {
 	text-align: center;
 	margin: 1px auto;
 	font-family: sans-serif;
-}
-
-.websites {
-	margin: 1px auto;
 }
 
 a:link {
@@ -130,13 +116,8 @@ a:visited {
 	margin: 1px auto;
 }
 
-.sayings {
-	margin: 1px auto;
-}
-
 .best {
 	font-style: italic;
 }
-
 
 
