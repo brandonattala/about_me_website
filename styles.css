@@ -92,13 +92,7 @@ body {
 	margin: 1px auto;
 }
 
- .inner_table td{
-	border-style: solid;
-	border-color: black;
-	border-width: 1px;
-}
-
- .inner_table th{
+ .inner_table td, th{
 	border-style: solid;
 	border-color: black;
 	border-width: 1px;
@@ -135,5 +129,3 @@ a:visited {
 .best {
 	font-style: italic;
 }
-
-
