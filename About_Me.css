@@ -1,0 +1,142 @@
+body {
+	font: times, medium, black;
+	padding: 0px;
+}
+
+.odd {
+	background-color: gray;
+}
+
+.goofy {
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: -5.8em;
+}
+
+.goof{
+	text-align: center;
+	margin-top: -0.2em;
+}
+
+.header {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 0px;
+	margin-bottom: -0.3em;
+}
+
+.my_picture {
+	float: right;
+	width: 23%;
+	height: 23%;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-width: 2px;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: black;
+	margin-top: 1em;
+}
+
+.top_paragraph {
+	float: right;
+	text-align: left;
+	width: 25em;
+	border-width: 2px;
+	border-style: solid;
+	border-color: transparent;
+}
+
+.top_paragraph_header {
+	margin-bottom: -0.5em;
+}
+
+.table {
+	width: 97%;
+	height: 50%;
+/*	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;*/
+	margin: 2px auto;
+}
+
+.table th, td {
+/*	border: 1px solid black;*/
+}
+
+.cell_title {
+	text-align: center;
+	font-size: medium;
+}
+
+.favorite_things {
+	font-size: small;
+	color: blue;
+	width: 100%;
+}
+
+.inspiration {
+	width: 24%;
+	height: 40%;
+	float: right;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+
+}
+
+.inspiration_info {
+	font-size: small;
+	margin-bottom: 0px;
+}
+
+.daily_activities {
+	font-size: small;
+	width: 100%;
+}
+
+.courses_table.odd {
+	font-size: small;
+	text-align: center;
+}
+
+.classes {
+	margin: 1px auto;
+}
+
+.links {
+	font-size: small;
+	text-align: center;
+	margin: 1px auto;
+	font-family: sans-serif;
+}
+
+.websites {
+	margin: 1px auto;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+.latin.odd {
+	font-size: small;
+	text-align: center;
+	margin: 1px auto;
+}
+
+.sayings {
+	margin: 1px auto;
+}
+
+.best {
+	font-style: italic;
+}
+
+
+
