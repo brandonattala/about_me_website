@@ -82,18 +82,34 @@ body {
 }
 
 .daily_activities {
+	list-style-type: lower-alpha;
 	font-size: small;
 	width: 100%;
 }
 
- .inner_table {
+
+.inner_table {
 	margin: 1px auto;
 }
+
+ .inner_table td{
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+ .inner_table th{
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
 
 .courses_table.odd {
 	font-size: small;
 	text-align: center;
 }
+
 
 .links {
 	font-size: small;
